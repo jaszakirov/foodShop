@@ -1,0 +1,22 @@
+{
+  "name": "foodshop",
+  "version": "1.0.0",
+  "description": "homeworrk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaszakirov/foodShop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaszakirov/foodShop/issues"
+  },
+  "homepage": "https://github.com/jaszakirov/foodShop#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
