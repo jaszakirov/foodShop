@@ -28,7 +28,7 @@ app.get(`/api/fruits/:id`, (req, res) => {
     }
     res.send(fruit)
 })
-app.get(`/api/fruits/:name`, (req, res) => {
+app.get(`/api/fruit/:name`, (req, res) => {
     const fruitName = fruits.find(f => f.name === req.params.name)
     if(!fruitName){
         res.status(404).send(`berilgan name ga tegishli fruit topilmadi`)
